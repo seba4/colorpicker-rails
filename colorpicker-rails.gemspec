@@ -1,13 +1,13 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'jquery-colorpicker-rails/version'
+require 'colorpicker-rails/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = 'jquery-colorpicker-rails'
-  gem.version       = Jquery::Colorpicker::Rails::VERSION
-  gem.authors       = ['Bogdan Frankovskiy']
-  gem.email         = ['bfrankovskiy@intelliarts.com']
+  gem.name          = 'colorpicker-rails'
+  gem.version       = Colorpicker::Rails::VERSION
+  gem.authors       = ['Sebastjan Lajkovic']
+  gem.email         = ['s4.coin@gmail.com']
   gem.description   = %q{This gem provides vanderlee jquery.colorpicker driver for your Rails 4 application.}
   gem.summary       = %q{Use jquery.colorpicker with rails and jQuery UI}
   gem.homepage      = ""

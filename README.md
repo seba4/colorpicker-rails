@@ -1,4 +1,6 @@
-# Jquery::Colorpicker::Rails
+# Colorpicker::Rails
+
+## Version: 1.2.0
 
 Gem for https://github.com/vanderlee/colorpicker/ for using into rails apps
 
@@ -6,7 +8,7 @@ Gem for https://github.com/vanderlee/colorpicker/ for using into rails apps
 
 Add this line to your application's Gemfile:
 
-    gem 'jquery-colorpicker-rails'
+    gem 'colorpicker-rails', git: "https://github.com/seba4/colorpicker-rails.git", tag: "1.2.0"
 
 And then execute:
 
@@ -14,13 +16,13 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jquery-colorpicker-rails
+    $ gem install jquery-colorpicker-rails, git: "https://github.com/seba4/colorpicker-rails.git", tag: "1.2.0"
 
 ## Usage
 
 Add  
 require jquery.ui.all
-require jquery.colorpicke
+require jquery.colorpicker
 to your application.js file 
 
 ## Contributing
